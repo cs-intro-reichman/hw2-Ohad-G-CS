@@ -11,7 +11,7 @@ public class Cheers {
 	    String initialWord = args[0];
             String word = "";
             int times = Integer.parseInt(args[1]);
-            String ana = "a";
+            String ana = "a ";
             for(int i = 0; i < initialWord.length(); i++) {
                  word = word + Character.toUpperCase(initialWord.charAt(i));
                 }
@@ -24,7 +24,7 @@ public class Cheers {
                         }
                 }
                 System.out.println("Give me " + ana + " " + word.charAt(i) + ": " + word.charAt(i) + "!");
-                ana = "a"; 
+                ana = "a "; 
             }
             System.out.println("What does that spell?");
             for(int p = 0; p < times; p++){
